@@ -1,0 +1,24 @@
+MNIST
+练手数据集
+temp
+.vscode
+.DS_Store
+cifar-10-python.tar
+# Python 编译缓存
+__pycache__/
+*.pyc
+*.pyo
+# AstrBot 框架文件（你截图里的冗余文件）
+.astrbot_launcher/
+d2ll
+# Node.js 工具
+nodejs/
+node_modules/
+npx
+npm
+
+# Python虚拟环境
+venv/
+.venv/
+env/
+EOF

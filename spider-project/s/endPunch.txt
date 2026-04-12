@@ -1,0 +1,39 @@
+摘要
+URL: http://47.120.61.169/punchApi/endPunch
+状态: 200
+来源: 网络
+地址: 47.120.61.169:80
+初始化程序: 
+umi.js:1:3846328
+
+请求
+POST /punchApi/endPunch HTTP/1.1
+Accept: application/json
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh-Hans;q=0.9
+Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyMDI1MzEwNjE0MjQiLCJjcmVhdGVkIjoxNzc0MTczNDA3NzE5LCJleHAiOjMzMzEwMTczNDA3fQ.LerglVFLoTa3PbpRjRjEnt3xrqzvJ-Eu5u9FbiJs0e9he0CpvdWvmwgCgoaZrLpqp37YdYL2jg1MYR9UmY7jZQ
+Connection: keep-alive
+Content-Length: 26
+Content-Type: application/json;charset=UTF-8
+Origin: http://47.120.61.169
+Priority: u=3, i
+Referer: http://47.120.61.169/
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.3.1 Safari/605.1.15
+
+响应
+HTTP/1.1 200
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Connection: keep-alive
+Content-Type: application/json;charset=UTF-8
+Date: Sun, 22 Mar 2026 10:02:11 GMT
+Expires: 0
+Pragma: no-cache
+Server: nginx/1.24.0
+Transfer-Encoding: chunked
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+
+请求数据
+MIME类型: application/json
+编码: UTF-8
+请求数据: 
