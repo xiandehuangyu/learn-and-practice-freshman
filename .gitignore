@@ -3,6 +3,7 @@ MNIST
 temp
 .vscode
 .DS_Store
+data/
 cifar-10-python.tar
 # Python 编译缓存
 __pycache__/

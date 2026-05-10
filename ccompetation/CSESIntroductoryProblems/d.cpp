@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+
+const int MOD = 1e9 + 7;
+const int INF = 0x3f3f3f3f;
+const long long LL_INF = 0x3f3f3f3f3f3f3f3f;
+const double EPS = 1e-8;
+using ll = long long;
+
+void solve() {
+  ll n;
+  std::cin >> n;
+  ll max, temp, sum = 0;
+  std::cin >> max;
+  while (--n) {
+    std::cin >> temp;
+    if (temp > max) {
+      max = std::max(max, temp);
+    } else
+      sum += max - temp;
+  }
+  std::cout << sum;
+}
+
+int main() {
+  std::ios::sync_with_stdio(false);
+  std::cin.tie(nullptr);
+
+  int t = 1;
+  // std::cin >> t;
+  while (t--) {
+    solve();
+  }
+  return 0;
+}
